@@ -72,15 +72,18 @@
   .item {
     width: 95%;
     margin: 10px auto;
-    padding: 20px 10px;
+    padding-bottom: 5px;
     box-shadow: 0 4px 8px 0 #ccc, 0 6px 20px 0 #ccc;
     border-radius: 5px;
   }
   
   .item h2 {
-    display: inline-block;
-    padding: 5px 0px;
-    font-size: 17px;
+    display: block;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
     font-family: sans-serif;
     color: #555;
   }
@@ -88,7 +91,7 @@
   .item small {
     display: block;
     width: 100%;
-    padding: 5px 0px;
+    padding: 5px;
     color: #888;
     padding-left: 30px;
     font-size: 14px;
@@ -103,10 +106,14 @@
     transition: background 1s;
     cursor: pointer;
     padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
   }
   
   .removeItem:hover {
-    background: #00CCC0;
+    border-radius: 25px;
+    background: #cc000078;
     color: #fff;
   }
   

@@ -41,7 +41,7 @@ if(isset($_SESSION['error_message'])) {
           <a class="nav-link text-light " aria-current="page" href="#">Pedidos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light " href="#">Productos</a>
+          <a class="nav-link text-light " href="views/product.php">Productos</a>
         </li>
 
       </ul>

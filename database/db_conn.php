@@ -1,7 +1,7 @@
 <?php 
 
 $sName = "localhost";
-$uName = "user";
+$uName = "username";
 $password="password";
 $dbName = "to-do-list-php";
 
